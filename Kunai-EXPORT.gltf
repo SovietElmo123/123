@@ -1,0 +1,332 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_texture_transform"
+    ],
+    "extensionsRequired" : [
+        "KHR_texture_transform"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cone",
+            "rotation" : [
+                0,
+                0,
+                -0.7071066498756409,
+                0.70710688829422
+            ],
+            "scale" : [
+                0.16998279094696045,
+                0.16850650310516357,
+                0.16850650310516357
+            ],
+            "translation" : [
+                -0.3769386112689972,
+                0,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Metal",
+            "normalTexture" : {
+                "extensions" : {
+                    "KHR_texture_transform" : {
+                        "offset" : [
+                            0,
+                            -3.4600000381469727
+                        ],
+                        "scale" : [
+                            4.460000038146973,
+                            4.460000038146973
+                        ]
+                    }
+                },
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "metallicRoughnessTexture" : {
+                    "extensions" : {
+                        "KHR_texture_transform" : {
+                            "offset" : [
+                                0,
+                                -3.4600000381469727
+                            ],
+                            "scale" : [
+                                4.460000038146973,
+                                4.460000038146973
+                            ]
+                        }
+                    },
+                    "index" : 1
+                },
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Handle_Leather",
+            "normalTexture" : {
+                "extensions" : {
+                    "KHR_texture_transform" : {
+                        "offset" : [
+                            0,
+                            -1.4000000953674316
+                        ],
+                        "scale" : [
+                            2.4000000953674316,
+                            2.4000000953674316
+                        ]
+                    }
+                },
+                "index" : 2
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "extensions" : {
+                        "KHR_texture_transform" : {
+                            "offset" : [
+                                0,
+                                -1.4000000953674316
+                            ],
+                            "scale" : [
+                                2.4000000953674316,
+                                2.4000000953674316
+                            ]
+                        }
+                    },
+                    "index" : 3
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "extensions" : {
+                        "KHR_texture_transform" : {
+                            "offset" : [
+                                0,
+                                -1.4000000953674316
+                            ],
+                            "scale" : [
+                                2.4000000953674316,
+                                2.4000000953674316
+                            ]
+                        }
+                    },
+                    "index" : 4
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cone.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "scratches_4_1K",
+            "uri" : "scratches_4_1K.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "scratches_4_1K",
+            "uri" : "scratches_4_1K-1.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "TexturesCom_Leather_StitchedPatchwork_512_height",
+            "uri" : "TexturesCom_Leather_StitchedPatchwork_512_height.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "TexturesCom_Leather_StitchedPatchwork_512_albedo",
+            "uri" : "TexturesCom_Leather_StitchedPatchwork_512_albedo.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "TexturesCom_Leather_StitchedPatchwork_512_roughness",
+            "uri" : "TexturesCom_Leather_StitchedPatchwork_512_roughness.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3225,
+            "max" : [
+                0.948609471321106,
+                8.541495323181152,
+                0.9067611694335938
+            ],
+            "min" : [
+                -0.948609471321106,
+                -3.3191299438476562,
+                -0.9067611694335938
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3225,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3225,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 16806,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 3743,
+            "max" : [
+                0.2772732079029083,
+                7.435367584228516,
+                0.27970197796821594
+            ],
+            "min" : [
+                -0.27727237343788147,
+                4.1226348876953125,
+                -0.27970197796821594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 3743,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 3743,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 14976,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 38700,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38700,
+            "byteOffset" : 38700
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25800,
+            "byteOffset" : 77400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 33612,
+            "byteOffset" : 103200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 44916,
+            "byteOffset" : 136812
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 44916,
+            "byteOffset" : 181728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29944,
+            "byteOffset" : 226644
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29952,
+            "byteOffset" : 256588
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 286540,
+            "uri" : "Kunai-EXPORT.bin"
+        }
+    ]
+}
